@@ -12,6 +12,8 @@ public class Throws {
             throwOne();
         }catch (IllegalAccessException e){
             System.out.println("caught "+ e);
+            System.out.println("getMessage()="+e);
+            e.printStackTrace();
         }
     }
 }
