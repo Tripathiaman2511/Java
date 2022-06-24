@@ -1,7 +1,7 @@
 package Generics;
 //Demonstrating a simple gen method
-public class GenMethDemo {
-    static <T extends Comparable<T>,V extends T> boolean isIn(T x,V[] y){
+ public class GenMethDemo {
+     static <T extends Comparable<T>,V extends T> boolean isIn(T x,V[] y){
         for (V v : y) {
             if(x.equals(v)) return true;
         }
