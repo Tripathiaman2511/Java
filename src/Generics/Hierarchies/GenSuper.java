@@ -9,6 +9,15 @@ public class GenSuper<T> {
         return ob;
     }
 }
+class Gen3<T> extends GenSuper<T>{
+    Gen3(T ob){
+        super(ob);
+
+    }
+    T getob2(){
+        return ob;
+    }
+}
 class GenSub<T,V> extends GenSuper<T>{
     V ob1;
     GenSub(T ob,V ob1){
